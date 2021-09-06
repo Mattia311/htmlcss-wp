@@ -23,6 +23,7 @@ body {
     height: 400px;
     margin-top: 2rem;
     width: 820px;
+    object-fit: cover;
 }
 .scritta_img {
     position: absolute;
@@ -70,18 +71,21 @@ body {
     filter: brightness(80%);
     width: 200px;
     height: 180px;
+    object-fit: cover;
 }
 .immaginesignore {
     width: 386px;
     height: 180px;
     border-radius: 15px 15px 15px 15px;
     filter: brightness(80%);
+    object-fit: cover;
 }
 .immagineragazzi {
     border-radius: 15px 15px 15px 15px;
     filter: brightness(80%);
     height: 180px;
     width:215px;
+    object-fit: cover;
 }
 .para {
     font-size: 12px;
@@ -96,4 +100,17 @@ h3 {
 }
 .container {
     padding-top: 2rem;
+}
+.para2 {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1C1C1C;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.ultimo {
+    padding-top: 500px;
+    padding-left: 330px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
