@@ -9,11 +9,91 @@ body {
 }
 .logo {
     width: 15%;
-    border-right: 1px solid rgb(172, 163, 163);
+    border-right: 1px solid rgb(212, 201, 201);
     padding-right: 15px;
 }
 .sezione1 {
     color: #858585;
     font-size: 13px;
+    padding-top: 2rem;
+}
+.immagine1 {
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+    height: 400px;
+    margin-top: 2rem;
+    width: 820px;
+}
+.scritta_img {
+    position: absolute;
+    color:white;
+    font-family: 'Montserrat', sans-serif;font-size: 15px;
+    padding:10px;       
+    top: 350px;
+    width: 100%;
+}
+.leader {
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.para1 {
+    color: #A8A8A8;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.containe::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.blocco1 {
+    float: left;
+    width: 25%;
+    color: #858585;
+}
+.blocco2 {
+    float: left;
+    width: 48%;
+    height: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #858585;
+}
+.blocco3 {
+    float: right;
+    width: 25%;
+    color: #858585;
+}
+.immagineraga {
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+    width: 200px;
+    height: 180px;
+}
+.immaginesignore {
+    width: 386px;
+    height: 180px;
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+}
+.immagineragazzi {
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+    height: 180px;
+    width:215px;
+}
+.para {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #A8A8A8;
+}
+h3 {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color:#1C1C1C ;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
     padding-top: 2rem;
 }
